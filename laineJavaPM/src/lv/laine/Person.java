@@ -71,6 +71,10 @@ public class Person {
 
 
     }
+     public String getAgeString(){
+        Period diff2 = getAge();
+        return(diff2.getYears()+" years, "+diff2.getMonths()+" months, "+diff2.getDays()+" days");
+     }
 
     @Override
     public String toString() {
@@ -80,7 +84,7 @@ public class Person {
                 ", lastname: " + lastName +
                 ", gender: " + gender  +
                 ", birth date: " + dob  +
-                ", age today: " + getAge() +
+                ", age today: " + getAgeString() +
                 '}';
     }
 }
