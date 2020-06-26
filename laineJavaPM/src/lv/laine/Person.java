@@ -4,9 +4,7 @@ import java.time.LocalDate;
 import java.time.Period;
 
 public class Person {
-    //LocalDate dob = LocalDate.of(1991, 04, 19);
-//    LocalDate date = LocalDate.now();
-//    Period diff = Period.between(dob, LocalDate.now());
+
     private Period diff;
     private String firstName;
     private String middleName;

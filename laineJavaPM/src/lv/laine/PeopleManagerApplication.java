@@ -7,10 +7,7 @@ import java.util.ArrayList;
 public class PeopleManagerApplication {
 
     public static void main(String[] args) {
-//        LocalDate dob = LocalDate.of(1991, 4, 19);
-//        LocalDate date = LocalDate.now();
-//        Period diff = Period.between(dob, date);
-//        System.out.println(diff.getYears()+ "years" + diff.getMonths() + "months" + diff.getDays() + "days");
+
         Person person = new Person("Laine", "Aleponija", "Balode", "f", LocalDate.of(1991,4,19));
         System.out.println(person);
 

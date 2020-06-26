@@ -16,7 +16,5 @@ public class PeopleManager {
     public void deletePerson(Person person){
         this.arrayOfPerson.remove(person);
     }
-    public void listToTerminal(){
 
-    }
 }
